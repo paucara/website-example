@@ -1,0 +1,131 @@
+.bg-logo {
+ background-color: #6CB131;
+}
+
+.cursor-poiter-active {
+  cursor: pointer;
+}
+
+.bg-negro{
+  background-color: black;
+}
+
+body{
+  background-color: #eee; 
+}
+
+.card{
+  background-color: #fff;
+  padding: 15px;
+  border:none;
+}
+
+.input-box{
+  position: relative;
+}
+
+.input-box i {
+  position: absolute;
+  right: 13px;
+  top:15px;
+  color:#ced4da;
+
+}
+
+.form-control{
+  height: 50px;
+  background-color:#eeeeee69;
+}
+
+.form-control:focus{
+  background-color: #eeeeee69;
+  box-shadow: none;
+  border-color: #eee;
+}
+
+
+.list{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.border-bottom{
+  border-bottom: 2px solid #eee;
+}
+
+.list i{
+  font-size: 19px;
+  color: red;
+}
+
+.list small{
+  color:#dedddd;
+}
+
+ /*Efecto de los items*/ 
+.efectoItem{
+  transition: transform 0.3s ease-in-out;
+}
+
+.efectoItem:hover{
+  transform: scale(1.1);
+}
+
+/*Estilos del item*/
+#item{
+  --bs-modal-zindex: 1055;
+  --bs-modal-padding: 1rem;
+  --bs-modal-margin: 0.5rem;
+  --bs-modal-color: ;
+  --bs-modal-bg: #fff;
+  --bs-modal-border-color: var(--bs-border-color-translucent);
+  --bs-modal-border-width: 1px;
+  --bs-modal-border-radius: 0.5rem;
+  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --bs-modal-inner-border-radius: calc(0.5rem - 1px);
+  --bs-modal-header-padding-x: 1rem;
+  --bs-modal-header-padding-y: 1rem;
+  --bs-modal-header-padding: 1rem 1rem;
+  --bs-modal-header-border-color: var(--bs-border-color);
+  --bs-modal-header-border-width: 1px;
+  --bs-modal-title-line-height: 1.5;
+  --bs-modal-footer-gap: 0.5rem;
+  --bs-modal-footer-bg: ;
+  --bs-modal-footer-border-color: var(--bs-border-color);
+  --bs-modal-footer-border-width: 1px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--bs-modal-zindex);
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+/*Destacados*/
+
+/* Estilo por defecto (para pantallas grandes) */
+.ajuste {
+  width: 30%;
+}
+
+/* Estilo para pantallas medianas y más pequeñas */
+@media (max-width: 767px) {
+  .ajuste {
+      width: 50%;
+  }
+}
+
+.texto-blanco-con-borde {
+  color: white; 
+            text-shadow: -1px 1px 0 #000, 
+                          1px 1px 0 #000, 
+                         1px -1px 0 #000, 
+                        -1px -1px 0 #000; 
+}
+
